@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--<link rel="stylesheet" href="./css/main.min.css" />-->
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
+    <title>Портфолио</title>
+  </head>
+  <body>
+    <!--Header-->
+
+    <header class="header">
+      <div class="container portfolio-header">
+        <nav class="header-navigation">
+          <a class="logo link" href="./index.html"
+            ><span class="accent">Web</span>Studio</a
+          >
+          <ul class="navigation list">
+            <li class="navigation-item">
+              <a class="navigation-link link" href="./index.html">Студия</a>
+            </li>
+            <li class="navigation-item">
+              <a
+                class="navigation-link active-page link"
+                href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <a class="link contacts-details" href="mailto:info@devstudio.com">
+            <svg class="email contacts-icon">
+              <use
+                class="contacts-details-svg"
+                href="./images/sprite.svg#envelope"
+              ></use>
+            </svg>
+            info@devstudio.com</a
+          >
+          <a class="link contacts-details" href="tel:+380961111111">
+            <svg class="smartphone contacts-icon">
+              <use
+                class="contacts-details-svg"
+                href="./images/sprite.svg#smartphone"
+              ></use>
+            </svg>
+            +38 096 111 11 11</a
+          >
+        </address>
+      </div>
+    </header>
+
+    <main>
+      <section class="portfolio">
+        <div class="container">
+          <!--Фильтр по услугам студии-->
+          <h1 hidden>Фильтр по услугам студии</h1>
+          <ul class="filter-list list">
+            <li class="filter-item">
+              <button class="services-filter-button" type="button">Все</button>
+            </li>
+            <li class="filter-item">
+              <button class="services-filter-button" type="button">
+                Веб-сайты
+              </button>
+            </li>
+            <li class="filter-item">
+              <button class="services-filter-button" type="button">
+                Приложения
+              </button>
+            </li>
+            <li class="filter-item">
+              <button class="services-filter-button" type="button">
+                Дизайн
+              </button>
+            </li>
+            <li class="filter-item">
+              <button class="services-filter-button" type="button">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+
+          <!--Услуги-->
+
+          <ul class="services-list list">
+            <li class="services-item">
+              <a class="services-link link" href="">
+                <div class="services-preview">
+                  <img
+                    src="./images/portfolio/website.jpg"
+                    alt="страница вебсайта"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="services-content">
+                  <h2 class="services-title">Технокряк</h2>
+                  <p class="services-category">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-item">
+              <a class="services-link link" href="">
+                <div class="services-preview">
+                  <img
+                    src="./images/portfolio/poster.jpg"
+                    alt="постер баскетбол"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="services-content">
+                  <h2 class="services-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="services-category">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-item">
+              <a class="services-link link" href="">
+                <div class="services-preview">
+                  <img
+                    src="./images/portfolio/restaurant.jpg"
+                    alt="логотип ресторана морепродуктов"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="services-content">
+                  <h2 class="services-title">Ресторан Seafood</h2>
+                  <p class="services-category">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-item">
+              <a class="services-link link" href="">
+                <div class="services-preview">
+                  <img
+                    src="./images/portfolio/marketing.jpg"
+                    alt="наушники"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="services-content">
+                  <h2 class="services-title">Проект Prime</h2>
+                  <p class="services-category">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-item">
+              <a class="services-link link" href="">
+                <div class="services-preview">
+                  <img
+                    src="./images/portfolio/boxes.jpg"
+                    alt="коробки"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="services-content">
+                  <h2 class="services-title">Проект Boxes</h2>
+                  <p class="services-category">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-item">
+              <a class="services-link link" href="">
+                <div class="services-preview">
+                  <img
+                    src="./images/portfolio/inspiration.jpg"
+                    alt="веб-сайт"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="services-content">
+                  <h2 class="services-title">Inspiration has no Borders</h2>
+                  <p class="services-category">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-item">
+              <a class="services-link link" href="">
+                <div class="services-preview">
+                  <img
+                    src="./images/portfolio/edition.jpg"
+                    alt="книга"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="services-content">
+                  <h2 class="services-title">Издание Limited Edition</h2>
+                  <p class="services-category">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-item">
+              <a class="services-link link" href="">
+                <div class="services-preview">
+                  <img
+                    src="./images/portfolio/label.jpg"
+                    alt="бирка с логотипом"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="services-content">
+                  <h2 class="services-title">Проект LAB</h2>
+                  <p class="services-category">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="services-item">
+              <a class="services-link link" href="">
+                <div class="services-preview">
+                  <img
+                    src="./images/portfolio/business.jpg"
+                    alt="веб приложение для бизнеса"
+                    width="370"
+                    height="294"
+                  />
+                </div>
+                <div class="services-content">
+                  <h2 class="services-title">Growing Business</h2>
+                  <p class="services-category">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-contacts">
+          <a class="footer-logo link" href="./index.html"
+            ><span class="accent">Web</span>Studio</a
+          >
+          <address class="contacts address">
+            <ul class="footer-contacts-list list">
+              <li class="footer-contacts-item">
+                <a
+                  class="footer-contacts-details map-address link"
+                  href="https://goo.gl/maps/kugexmw8L3Ajr5Bk6"
+                  target="_blank"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-contacts-item">
+                <a
+                  class="footer-contacts-details footer-email link"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-contacts-item">
+                <a
+                  class="footer-contacts-details footer-tel link"
+                  href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="join">
+          <b class="join-title"> Присоединяйтесь </b>
+          <ul class="footer-social-list list">
+            <li class="footer-social-icons">
+              <a class="footer-social-link" href="">
+                <svg class="footer-social-svg">
+                  <use href="./images/sprite.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-icons">
+              <a class="footer-social-link" href="">
+                <svg class="footer-social-svg">
+                  <use href="./images/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-icons">
+              <a class="footer-social-link" href="">
+                <svg class="footer-social-svg">
+                  <use href="./images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-icons">
+              <a class="footer-social-link" href="">
+                <svg class="footer-social-svg">
+                  <use href="./images/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Subscribe form-->
+        <form class="subscribe-form-wrapper">
+          <b class="join-title">Подпишитесь на рассылку</b>
+          <input
+            type="email"
+            name="user-email"
+            class="subscribe-form-input"
+            placeholder="E-mail"
+            required
+          />
+          <button type="submit" class="subscribe-form-btn">
+            <span class="send-button-wrapper"
+              >Подписаться
+              <svg class="send-icon" width="24px" height="24px">
+                <use href="/images/sprite.svg#send"></use>
+              </svg>
+            </span>
+          </button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

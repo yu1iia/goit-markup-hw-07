@@ -1,0 +1,19 @@
+//utils
+@import "./utils/variables";
+
+//common
+@import "./base/common";
+
+//portfolio
+@import "./layout/portfolio";
+@import "./layout/services";
+
+//components
+@import "./components/social-icons";
+@import "./components/subscribe-form";
+@import "./components/details";
+@import "./layout/team";
+
+//layout
+@import "./layout/header";
+@import "./layout/footer";
